@@ -1,0 +1,9 @@
+{
+    "env": {
+        "DEV_PORT": 8000,
+        "DEV_MONGO_USER": "mongodbuser",
+        "DEV_MONGO_PASSWORD": "mongodb",
+        "DEV_MONGO_DB": "events-react-dev",
+        "DEV_JWT_SECRET": "somesupersecretkey"
+    }
+}
