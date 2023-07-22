@@ -1,0 +1,75 @@
+.events-control {
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #5101d1;
+    width: 35rem;
+    max-width: 80%;
+    height: 8rem;
+}
+
+.btn {
+    background-color: #5101d1;
+    border: 2px solid #5101d1;
+    border-radius: 0.2rem;
+    width: 10rem;
+    font: inherit;
+    cursor: pointer;
+    padding: 0.4rem 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    color: whitesmoke;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #6219d6;
+    border: 2px solid #6219d6;
+    cursor: pointer;
+}
+
+.form-control {
+    margin: 0.5rem;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+    width: 25rem;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.form-control label {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.form-control input {
+    height: 3vh;
+    border: 2px solid #333;
+    border-radius: 0.2rem;
+}
+
+.form-control textarea {
+    border: 2px solid #333;
+    border-radius: 0.2rem;
+}
+
+.form-control p {
+    color: crimson;
+}
+
+.form-control.invalid input,
+.form-control.invalid textarea {
+    border: 2px solid crimson;
+}
+
+.form-errors li {
+    list-style-type: none;
+    color: crimson;
+    text-align: start;
+}
+
+
+
